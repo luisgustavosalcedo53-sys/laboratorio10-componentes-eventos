@@ -1,0 +1,16 @@
+body { margin: 0; background: #f3f6f9; color: #142337; font-family: 'Segoe UI', sans-serif; }
+* { box-sizing: border-box; }
+main { max-width: 950px; margin: 60px auto; padding: 24px; }
+header span { font-size: 12px; font-weight: 700; letter-spacing: 2px; color: #087b8c; }
+h1 { font-size: clamp(26px, 5vw, 40px); margin-bottom: 12px; }
+header p, footer { color: #536578; }
+section { background: white; border: 1px solid #dbe3ea; border-radius: 16px; padding: 28px; margin: 28px 0; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+caption { text-align: left; margin: 12px 0; color: #536578; }
+th, td { padding: 18px 12px; border-bottom: 1px solid #e3e9ef; }
+th { background: #f5f8fa; font-size: 14px; }
+.estado { color: #087b64; font-weight: 600; }
+button { margin-top: 24px; border: 0; border-radius: 8px; background: #0c7686; color: white; padding: 12px 20px; cursor: pointer; font: inherit; }
+button:focus-visible, a:focus-visible { outline: 3px solid #58bbce; outline-offset: 3px; }
+[role=alert] { color: #b42318; }
+a { color: #087b8c; overflow-wrap: anywhere; }
